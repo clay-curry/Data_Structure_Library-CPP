@@ -1,4 +1,8 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\00.HeaderFiles"
+  ],
+  "SelectedNode": "\\00.HeaderFiles\\ArrayClass.h",
   "PreviewInSolutionExplorer": false
 }
