@@ -22,7 +22,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e50841ef-6297-4f9e-b3b9-109b5283a73d}</ProjectGuid>
+    <ProjectGuid>{11183f0c-8ef7-4528-bd84-0bda0848daa7}</ProjectGuid>
     <RootNamespace>My01ArrayTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
