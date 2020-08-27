@@ -1,5 +1,5 @@
 # Data_Structure_Library-CPP
-As a learning project using Git, I have constructed this library of abstract data types (ADTs) implemented in C++, and I have created cooresponding templated data structures. 
+As a learning project using Git, I have constructed this library of data structures and cooresponding abstract data types (ADTs) implemented in C++.
 ### Background
 An abstract data type (ADT) is an axiomatic specification of a class of objects whose logical behavior is defined by a set of values and a set of operations on these possible values. 
 For example, one could define an abstract data type to be identical to the set of real numbers. The set of real numbers is characteristically defined to be a field (alegbraic structure with an addition relation and multiplication relation with their usual commutative, associative, and distributive properties) with a total ordering (i.e. if x, y, z are real numbers, and x > y, then x + z > y + z) of elements and the order of elements is Dedekind-complete (every non-empty subset with an upper bound has a least upper bound (a.k.a., supremum) in the larger set). This characteristic definition of the real numbers is also a valid abstract data type.
