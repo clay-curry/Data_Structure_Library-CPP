@@ -399,3 +399,5 @@ FodyWeavers.xsd
 *.tlog
 *.enc
 *.ibd
+01.ArrayTest/build/
+Sandbox/intermediate/
