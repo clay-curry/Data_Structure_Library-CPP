@@ -3,13 +3,16 @@
 
 
 #include "ArrayClass.h"
+#include <array>
+
+using hi = int;
 
 int main()
 {
+	std::array<int, 3> a = { 1, 2, 4 };
 	ArrayClass<int> ai(8, 4); //-V112
 	ArrayClass<int> ai2 = ai;
 	ArrayClass<int> ai3(10);
-
 	std::cout << ai << std::endl;
 	std::cout << ai2 << std::endl;
 	std::cout << ai3 << std::endl;
