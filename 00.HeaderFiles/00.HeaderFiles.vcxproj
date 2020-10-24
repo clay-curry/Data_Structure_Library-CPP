@@ -20,8 +20,34 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractArrayClass.h" />
+    <ClInclude Include="AbstractBinarySearchTree.h" />
+    <ClInclude Include="AbstractBinaryTree.h" />
+    <ClInclude Include="AbstractBinaryTreeAccess.h" />
+    <ClInclude Include="AbstractBT.h" />
+    <ClInclude Include="AbstractLinkedL.h" />
+    <ClInclude Include="AbstractLinkedList.h" />
+    <ClInclude Include="AbstractStack.h" />
+    <ClInclude Include="AbstractVector.h" />
+    <ClInclude Include="Array.h" />
     <ClInclude Include="ArrayClass.h" />
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="BT.h" />
+    <ClInclude Include="Enumeration.h" />
+    <ClInclude Include="IteratedLinkedList.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="MatrixClass.h" />
+    <ClInclude Include="MyMatrix.h" />
+    <ClInclude Include="RedBlackBST.h" />
+    <ClInclude Include="SelfModifyingBST.h" />
+    <ClInclude Include="SplayBST.h" />
+    <ClInclude Include="StackArray.h" />
+    <ClInclude Include="StackLinked.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="StringClass.h" />
+    <ClInclude Include="StringTokenizer.h" />
+    <ClInclude Include="ThisLinkedList.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -32,10 +58,11 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Utility</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
@@ -45,10 +72,11 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Utility</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
@@ -77,12 +105,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)lib\</IntDir>
+    <IncludePath>$(SolutionDir)00.HeaderFiles;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\</OutDir>
+    <IntDir>$(ProjectDir)lib\</IntDir>
+    <IncludePath>$(SolutionDir)00.HeaderFiles;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -95,6 +129,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -129,6 +164,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
